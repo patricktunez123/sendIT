@@ -1,0 +1,84 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after { box-sizing: inherit; margin: 0; padding: 0;}
+body {
+  background: #EFF6F9;
+  font-family: 'Crimson Text', serif;
+}
+a {
+  text-decoration: none;
+  color: #000000;
+}
+input {
+  width: 100%;
+  padding: 20px;
+}
+.above {
+  background-color:#EFF6F9;
+  border: 1px solid #F7F7F7;
+  border-color: rgba(50, 115, 220, 0.3);
+  list-style: none;
+  text-align: center;
+  font-size: 30px;
+  border-radius: 5px 5px 0px 0px;
+}
+.frm-search {
+  max-width: 400px;
+  margin: 50px auto;
+}
+input.city-search {
+  position: sticky;
+  margin: 0;
+  text-align: center;
+  outline: 0;
+  border: 1px solid #F7F7F7;
+  border-top: none;
+  width: 100%;
+  left: -10%;
+  top: 10px;
+  z-index: 2;
+  border-radius: 0px 0px 5px 5px;
+  font-size: 35px;
+  border-color: rgba(50, 115, 220, 0.3);
+  
+}
+.city-search::-moz-placeholder {
+  color: #999;
+  opacity: 1;
+}
+.city-search:-ms-input-placeholder {
+  color: #999;
+}
+.city-search::-webkit-input-placeholder {
+  color: #999;
+}
+.list {
+  position: relative;
+}
+
+.list li {
+  background: white;
+  list-style: none;
+  border-bottom: 1px solid #D4820B;
+  margin: 0;
+  padding: 21px;
+  display: flex;
+  justify-content: space-between;
+  text-transform: capitalize;
+}
+span.population {
+  font-size: 15px;
+}
+span.growth_from_2000_to_2013 {
+  font-size: 15px;
+  color: green;
+}
+span.growth_from_2000_to_2013_red {
+  font-size: 15px;
+  color: red;
+}
+.highlight {
+  background: #D4820B;
+}
+
